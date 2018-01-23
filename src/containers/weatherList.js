@@ -23,7 +23,7 @@ class WeatherList extends Component {
          <h4>{name}</h4>
         </td>
         <td className="col-sm-4">
-          <Chart data={temp} color="#18bc9c" unit="°C"/>
+          <Chart data={temp} color="#e3e3e3" unit="°C"/>
         </td>
         <td className="col-sm-4">
           <Chart data={humidity} color="#2e3c50" unit="%"/>
@@ -43,7 +43,7 @@ class WeatherList extends Component {
     return (
       <div className="table-responsive">
         <hr/>
-        <table className="table table-striped table-hover">
+        <table className="table table-condensed">
           <thead>
             <tr>
               <th>City</th>

@@ -2,10 +2,17 @@
   font-family: 'Helvetica';
   src: url('./styles/fonts/HelveticaNeueLt.ttf'); 
 }
+html, body{
+  height: 100%;
+}
 body {
   font-family: 'Helvetica';
   padding-top: 20px;
   padding-bottom: 20px;
+  background: linear-gradient(to bottom right, #16637F,#1BCC89);
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
 }
 h1,h2,h3,h4,h5 {
   font-family: 'Helvetica';
